@@ -1,0 +1,13 @@
+creamos las carpetas y los archivos locales
+git init
+git status
+git add
+git commit -m "comentarios de las modificaciones"
+git remote add origin https://github.com/zaagagon/javacito.git
+git push -u origin master(este comando y el que sigue funcionan igual)
+git push
+
+
+
+una vez se han creado los commits
+utizamos el comando git push para subir las modificaciones al repositorios remoto.

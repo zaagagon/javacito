@@ -9,7 +9,7 @@ public class EntradaDatos
         //Notar que readLine() nos obliga a declarar IOException
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //Ya tenemos el "lector"
 
-        System.out.println("Por favor ingrese su nombre");//Se pide un dato al usuario
+        System.out.println("Ingrese su nombre por favor :");//Se pide un dato al usuario
 
         String nombre = br.readLine(); //Se lee el nombre con readLine() que retorna un String con el dato
 

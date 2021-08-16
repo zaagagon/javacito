@@ -1,6 +1,6 @@
 //para usar la clase Scanner es necesario importar la biblioteca
 
-import java.util.Scanner;
+import java.util.*;
 
 class HolaMundo{
 

@@ -3,7 +3,7 @@
     public class SerieNumeros {
         public static void main(String[] args){
             //bucle para imprimir numeros
-            // programa creado con github
+            // programa creado con github noviembre
             for(int i=1;i<=10;i++){
                 System.out.println(i);
             }

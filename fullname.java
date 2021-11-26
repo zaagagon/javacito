@@ -1,5 +1,7 @@
 //programa que usa Scanner para recibir datos
 
+//Java proporciona en el paquete java. util una clase que se denomina Scanner 
+
 import java.util.Scanner;
 
 public class fullname {

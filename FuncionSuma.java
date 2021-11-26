@@ -25,3 +25,4 @@ public class FuncionSuma {
     
     }
 }
+//cmd +shift+p para activar menu alterno o consola

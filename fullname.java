@@ -1,3 +1,5 @@
+//programa que usa Scanner para recibir datos
+
 import java.util.Scanner;
 
 public class fullname {

@@ -14,6 +14,8 @@ public class FuncionSuma {
     public static void suma(int a,int b) {
        // int a,b,c;
         int c= a+b;
+        //imprimir el valor de la operacion
+        System.out.print(c);
     
     }
 }

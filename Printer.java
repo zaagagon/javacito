@@ -17,6 +17,7 @@ public class Printer {
  //Este metodo solo imprime enteros
  //Es necesario crear una funcion que reciba enteros y cadenas
  //pendiente
+ //crear una funcion imprimir numero y letras
  System.out.println(C);
         
     }

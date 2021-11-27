@@ -1,14 +1,14 @@
-import java.text.BreakIterator;
+//programa con exception para entrada de un entero con metodo printer
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Numero {
     public static void main(String[] args) {
-       boolean continua;
+       boolean follow;
         do {
 
             try {
-               continua = false;
+               follow = false;
                 Scanner entrada = new Scanner(System.in);
                 System.out.println("Digite un numero :");
                 int numero = entrada.nextInt();
@@ -22,14 +22,14 @@ public class Numero {
             
                     
                 } catch (InputMismatchException ex) {
-                   continua=true;
+                   follow=true;
                     //TODO: handle exception
                     System.out.println(" * Error - Debe digitar un numero *");
                     //En esta ocasion sale el error pero interrumpe el programa
         
                 }
             
-        } while (continua);
+        } while (follow);
       
        //finally{ main(args);}
 

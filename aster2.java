@@ -21,8 +21,8 @@ public class aster2{
             //fila--;
          // System.out.println(fila);
          //Solucion del triangulo inverso fila -i
-         //
-            for(int j=1;j<=fila-i;j++){
+         //Es necesario que j su valor sea cero para poder imprimir la ultima fila
+            for(int j=0;j<=fila-i;j++){
                 
                 System.out.print("* ");
             }

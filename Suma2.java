@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Suma2 {
     public static void main(String[] args) {
+        //usa la clase Scanner y el metodo 
         Scanner teclado = new Scanner(System.in);
         System.out.print("Digite el numero1 : ");
 

@@ -4,14 +4,18 @@ public class Suma2 {
     public static void main(String[] args) {
         //usa la clase Scanner y el metodo 
         Scanner teclado = new Scanner(System.in);
-        System.out.print("Digite el numero1 : ");
-
-        int n1 = teclado.nextInt();
+        //System.out.print("Digite el numero1 : ");
+//otra opcion es 
+System.out.println("introduzca dos numeros");
+//ahora los leemos los dos numeros
+        int n1 = teclado.nextInt();//utilizamos el metodo nextInt de la clase Scanner
+        int n2 =teclado.nextInt();
         //la funcion printer recibe enteros
-        Printer.printer(n1);
+       // Printer.printer(n1);
         //declaramos e inicializamos n2
-        int n2=6;
-        //se llama el metodo suma
+        //int n2=6;
+        //se llama el metodo suma 
+        //Este metodo pertenece a la misma clase
         suma(n1, n2);
     }
 
@@ -19,7 +23,7 @@ public class Suma2 {
         //Declaramos e inicializamos la variable C
         int c = n1+n2;
         //usamos return
-    Printer.printer(c);
+    Printer.printer(c);//el metodo printer pertenece a la clase Printer
         
     }
     

@@ -1,9 +1,10 @@
 import java.util.Scanner;
-
+//cuantos bloques {} tienes nuestro programa ?
 public class Suma2 {
     public static void main(String[] args) {
         //usa la clase Scanner y el metodo 
-        Scanner teclado = new Scanner(System.in);
+        //creamos el objeto teclado y lo instanciamos
+        Scanner teclado = new Scanner(System.in);  //teclado es un objeto del tipo Scanner
         //System.out.print("Digite el numero1 : ");
 //otra opcion es 
 System.out.println("introduzca dos numeros");

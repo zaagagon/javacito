@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //nombre de la clase
 public class holita { //archivo y clase deben tener el mismo nombre
 
@@ -6,7 +8,11 @@ public class holita { //archivo y clase deben tener el mismo nombre
         //instruccion 
         //imprimir en pantalla hola
         for(int i=1;i<=3;i++){
-            System.out.println("Hola a todos");
+            Scanner nombre = new Scanner(System.in);
+            
+            System.out.println("Hola, Digite su nombre por favor : ");
+            String name =nombre.nextLine();
+          System.out.println(name + "Bievenido");
         }
         
         

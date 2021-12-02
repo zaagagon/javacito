@@ -39,12 +39,20 @@
             //usando let name
            let name = prompt("Digite su nombre : ");
            document.write("Ha sido registrado exitosamente " + name);
+suma();
         }           
-
+function suma(){
+let n1=prompt("numero 1");
+let n2= prompt("numero 2");
+let c =n1+n2;
+//return c;
+//vamos a usar alert para la salida del calculo de la operacion
+alert("resultado de operacion : " +c);
+}
         
     </script>
     
-    <section><span>alerta()</span></section>
+    <section><span>alerta();</span></section>
     <!--podemos crear un boton para usar la funcion alerta-->
     <input type="button" onclick="alerta();" value="Clic ver alerta"/>
 

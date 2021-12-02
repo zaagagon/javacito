@@ -15,6 +15,8 @@
     <li>Creemos una alerta con click</li>
     <li>Podemos imprimir algo con document write</li>
     <li>tambien podemos usar css desde una archivo</li>
+    <li>Creacion de funcion alerta</li>
+    <li>creacion funcion suma</li>
 </ul>
     <h2>alerta();</h2>
     <!--usemos el tag section y comentarios-->
@@ -38,13 +40,17 @@
             //podemos guardar la informacion del prompt
             //usando let name
            let name = prompt("Digite su nombre : ");
-           document.write("Ha sido registrado exitosamente " + name);
+           alert("Bienvenid@ "+ name);
+           //document.write("Ha sido registrado exitosamente " + name);
+           //podemos llamar la funcion suma
 suma();
         }           
 function suma(){
 let n1=prompt("numero 1");
 let n2= prompt("numero 2");
-let c =n1+n2;
+//para evitar que las entradas se concatenen
+//parseamos las variables para que sea enteros su contenido
+let c = parseInt (n1)+parseInt(n2) ;
 //return c;
 //vamos a usar alert para la salida del calculo de la operacion
 alert("resultado de operacion : " +c);

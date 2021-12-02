@@ -35,9 +35,15 @@
         //esta funcion la podemos llamar
         function alerta(){
             alert("Mi primera alerta");
-        }
+            //podemos guardar la informacion del prompt
+            //usando let name
+           let name = prompt("Digite su nombre : ");
+           document.write("Ha sido registrado exitosamente " + name);
+        }           
+
         
     </script>
+    
     <section><span>alerta()</span></section>
     <!--podemos crear un boton para usar la funcion alerta-->
     <input type="button" onclick="alerta();" value="Clic ver alerta"/>

@@ -5,13 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   <!--Aqui llamamos nuestra hoja de estilos-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Ejercicios de javascript</h1>
+    <p>Algunos ejemplos o ejercicios: vamos a crear una serie de ejemplos con una lista </p>
+    <ul><li>Creemos una alerta</li>
+    <li>Creemos una alerta con click</li>
+    <li>Podemos imprimir algo con document write</li>
+    <li>tambien podemos usar css desde una archivo</li>
+</ul>
+    <h2>alerta();</h2>
+    <!--usemos el tag section y comentarios-->
+    <section>
+        <span onclick="alert('Bienvenido ZAG!');">Clic aqu&iacute;</span>
+    </section>
     <script>
         //comentarios dentro del script
         //con esta función podemos imprimir algo en el html
-    document.write("hola");
+    document.write("hola zag");
+    //tambien es posible llamar el script
     </script>
+    <script>
+        //esta funcion la podemos llamar
+        function alerta(){
+            alert("Mi primera alerta");
+        }
+        
+    </script>
+    <section><span>alerta()</span></section>
+    <!--podemos crear un boton para usar la funcion alerta-->
+    <input type="button" onclick="alerta();" value="Clic ver alerta"/>
+
+
 </body>
 </html>

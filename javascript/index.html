@@ -10,6 +10,9 @@
 </head>
 <body>
     <h1>Ejercicios de javascript</h1>
+    <!--Creamos un boton que llama un evento onclick que llama una funcion en javascript-->
+    <input type="button" value="Dame click" onclick="saludo()">
+    <input type="button" value="Pinchame y verás" onclick=alert(pinchar); />
     <p style="color: chocolate;">Algunos ejemplos o ejercicios: vamos a crear una serie de ejemplos con una lista </p>
     <ul style="color: darkslategray;"><li>Creemos una alerta</li>
     <li>Creemos una alerta con click</li>
@@ -43,8 +46,9 @@
            alert("Bienvenid@ "+ name);
            //document.write("Ha sido registrado exitosamente " + name);
            //podemos llamar la funcion suma
-suma();
-        }           
+suma(); //podemos imaginar pedir una contraseña para la operacion
+        }  
+        //creada con alert y prompt         
 function suma(){
 let n1=prompt("numero 1");
 let n2= prompt("numero 2");
@@ -55,6 +59,11 @@ let c = parseInt (n1)+parseInt(n2) ;
 //vamos a usar alert para la salida del calculo de la operacion
 alert("resultado de operacion : " +c);
 }
+function saludo(){
+    alert("Muestrame un ok");
+}
+
+
         
     </script>
     

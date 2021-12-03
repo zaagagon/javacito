@@ -1,0 +1,25 @@
+<HTML>
+    <HEAD> 
+        <!--revisar codigo-->
+        <TITLE> Calculadora interactiva </TITLE>
+    <SCRIPT LANGUAGE = "JavaScript">
+
+    function Calcula(formulario) {formulario.resultados.value
+        = eval (formulario.entrada.value);
+    }
+    
+    function CogeExpresion (formulario) {
+        formulario.entrada.blur ()
+        formulario.entrada.value = prompt ("Introduce una expresión matemática válida en JavaScript", "")
+        Calcula (formulario)
+    } // ->
+    </SCRIPT> 
+    </HEAD> 
+    <body> 
+        <form method = post>
+    Calculadora interactiva:
+    <INPUT TYPE = text NAME = "entrada" VALUE = "" onFocus = "CogeExpresion (this.form)">
+    <BR> El resultado es: <INPUT TYPE = text NAME = "resultados" VALUE = "" onFocus = "this .blur () ">
+    </FORM> 
+</BODY> 
+</HTML>

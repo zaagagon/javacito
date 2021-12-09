@@ -1,6 +1,8 @@
-
+//public static final String ANSI_RED = "\u001B[31m";
 class Arreglos{
 	public static void main (String [] args) {
+		public static final String ANSI_RED = "\u001B[31m";
+		public static final String ANSI_RESET = "\u001B[0m";
 		// Declaracion arreglo notas
 		float [] notas = new float [5];
 		// Insercion de datos al arreglo notas
@@ -31,7 +33,8 @@ class Arreglos{
 
 		for (int x = 0; x <planetas.length; x ++) {
 			//System.out.printf("Mascotas  = "+mascotas[x]+"\n");
-            System.out.println("arreglo planetas "+'\n'+planetas[x]);
+			//REVISAR ESTA OPCION PARA COLORES
+            System.out.println(ANSI_RED+"arreglo planetas "+'\n'+planetas[x]+ANSI_RESET);
 		}
 	}
 }

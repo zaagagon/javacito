@@ -1,8 +1,13 @@
+
+/*class color {
+	
+public static final String ANSI_RED = "\u001B[31m";
+		public static final String ANSI_RESET = "\u001B[0m";}*/
 //public static final String ANSI_RED = "\u001B[31m";
 class Arreglos{
 	public static void main (String [] args) {
-		public static final String ANSI_RED = "\u001B[31m";
-		public static final String ANSI_RESET = "\u001B[0m";
+		//public static final String ANSI_RED = "\u001B[31m";
+		//public static final String ANSI_RESET = "\u001B[0m";
 		// Declaracion arreglo notas
 		float [] notas = new float [5];
 		// Insercion de datos al arreglo notas
@@ -30,11 +35,12 @@ class Arreglos{
 		//arreglo mutantes 
 		//verifiquemos el tamaño del arreglo mutantes
 		System.out.println("el tamaño del arreglo mutantes es : "+mutantes.length);
+		System.out.println(+'\n'+"\u001B[31m"+"Arreglo planetas "+"\u001B[0m");
 
 		for (int x = 0; x <planetas.length; x ++) {
 			//System.out.printf("Mascotas  = "+mascotas[x]+"\n");
 			//REVISAR ESTA OPCION PARA COLORES
-            System.out.println(ANSI_RED+"arreglo planetas "+'\n'+planetas[x]+ANSI_RESET);
+            System.out.println("Arreglo planetas "+'\n'+"\u001B[31m"+planetas[x]+"\u001B[0m");
 		}
 	}
 }

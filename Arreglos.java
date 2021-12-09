@@ -10,7 +10,8 @@ class Arreglos{
 		notas [3] = (float) 5.0;
 		notas [4] = (float) 5.0;
 		// Declaracion e inicializacion arreglo vengadores
-		String [] vengadores = new String [] {"Viuda Negra","Capitan America", "Hulk"};
+		String [] vengadores = new String [] {"Viuda Negra","Capitan America", "Hulk","Soldado de invierno"};
+		String [] mutantes = new String []{"wolverine"};
 		// Arreglo de objetos
 		Planeta[] planetas = new Planeta[2];
 		planetas [0] = new Planeta ("Marte");
@@ -23,9 +24,14 @@ class Arreglos{
 		for (int x = 0; x <vengadores.length; x ++) {
 			System.out.printf("Vengador  "+ "["+x+"]"+" = "+vengadores[x]+"\n");//salto de linea \n
 		}
+
+		//arreglo mutantes 
+		//verifiquemos el tamaño del arreglo mutantes
+		System.out.println("el tamaño del arreglo mutantes es : "+mutantes.length);
+
 		for (int x = 0; x <planetas.length; x ++) {
 			//System.out.printf("Mascotas  = "+mascotas[x]+"\n");
-            System.out.println(planetas[x]);
+            System.out.println("arreglo planetas "+'\n'+planetas[x]);
 		}
 	}
 }

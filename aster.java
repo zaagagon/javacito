@@ -26,3 +26,5 @@ public class aster {
     
 }
 
+//note: sudo java HolaMundo.java
+//permite ejecutar el archivo

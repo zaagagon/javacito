@@ -1,3 +1,5 @@
+//PROGRAMA QUE IMPRIME LA TABLA DEL 8
+
 public class Tablas {
     public static void main(String[] args) {
         //programa para imprimir la tabla del 8

@@ -28,6 +28,7 @@ System.out.println("Introduzca dos numeros :");
         //Declaramos e inicializamos la variable C
         int c = n1+n2;
         //usamos return
+        System.out.println("El resultado de la suma de los dos numero es :");
     Printer.printer(c);//el metodo printer pertenece a la clase Printer
         
     }

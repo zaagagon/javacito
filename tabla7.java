@@ -10,7 +10,7 @@ public class tabla7 {
         //solucion
         for(int i=1;i<=10;i++){
             
-            System.out.println(i+"*"+"8"+"="+i*8);
+            System.out.println(i+"*"+"7"+"="+i*7);
 
         }
         

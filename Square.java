@@ -1,3 +1,5 @@
+//programa que imprime cuadro de asteriscos
+
 import java.util.Scanner;
 
 //razonamiento de cuadrado de asteriscos

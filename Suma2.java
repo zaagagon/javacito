@@ -1,3 +1,6 @@
+//PROGRAMA QUE SUMA DOS NUMEROS EN JAVA
+//JAVA Suma2.java
+
 import java.util.Scanner;
 //cuantos bloques {} tienes nuestro programa ?
 public class Suma2 {

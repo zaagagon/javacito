@@ -11,7 +11,7 @@ public class Suma2 {
         //System.out.print("Digite el numero1 : ");
 //otra opcion es 
 System.out.println("Programa que suma dos numeros");
-System.out.println("Introduzca dos numeros");
+System.out.println("Introduzca dos numeros :");
 //ahora los leemos los dos numeros
         int n1 = teclado.nextInt();//utilizamos el metodo nextInt de la clase Scanner
         int n2 =teclado.nextInt();

@@ -4,6 +4,9 @@
 import java.util.Scanner;
 //cuantos bloques {} tienes nuestro programa ?
 
+
+//Clase suma2
+
 public class Suma2 {
     public static void main(String[] args) {
         //usa la clase Scanner y el metodo 

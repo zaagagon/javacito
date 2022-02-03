@@ -24,6 +24,8 @@ System.out.println("Introduzca dos numeros :");
         suma(n1, n2);
     }
 
+
+    //funcion SUMA
     public static void suma(int n1,int n2) {
         //Declaramos e inicializamos la variable C
         int c = n1+n2;

@@ -1,7 +1,7 @@
 //PROGRAMA QUE IMPRIME LA TABLA DEL 8
 
 //la clase tiene el mismo nombre del archivo java
-public class tabla7 {
+public class tabla9 {
     
     public static void main(String[] args) {
         //programa para imprimir la tabla del 8

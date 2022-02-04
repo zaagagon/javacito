@@ -6,5 +6,6 @@ BufferedReader entradaEstandar = new BufferedReader (new InputStreamReader(Syste
 String mensaje;
 System.out.println ("Introducir una linea de texto:");
  mensaje = entradaEstandar.readLine();
+ //Salida en pantalla
  System.out.println ("Introducido: \"" + mensaje + "\"");
 } }

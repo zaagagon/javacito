@@ -10,7 +10,7 @@ se logra evidenciar que la columna la serie es 3 2 1 es decir fila -1
 2-1
 1
 */
-
+//imprime triangulo
 public class aster2{
     public static void main(String[] args) {
         Scanner teclado=new Scanner(System.in); 

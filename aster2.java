@@ -29,7 +29,7 @@ public class aster2{
             System.out.println();
         }
     }
-    
+    //coment
 
     
 }

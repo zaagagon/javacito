@@ -11,6 +11,8 @@ public class fullname {
         //usamos en esta ocasion nextline para recibir
         // los espacios en blanco ingresados por teclado
         String completo=teclado.nextLine();
+
+        //imprime en pantalla
         System.out.println("Bienvenido " + completo);
     }
 }

@@ -12,6 +12,7 @@ llenamos por filas o por columnas
 
 public class Square {
     public static void main(String[] args) {
+        //instancia entrada
         Scanner entrada= new Scanner(System.in);
         System.out.println("programa que dibuha cuadro de asteriscos");
         System.out.println("Digite el numero de astericos :");

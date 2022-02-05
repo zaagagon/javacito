@@ -7,6 +7,7 @@
             for(int i=1;i<=10;i++){
                 System.out.println(i);
             }
+            //imprime los numeros del 1 al 10
             System.out.println("Numeros del 1 al 10");
         }
         

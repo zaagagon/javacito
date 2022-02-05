@@ -8,6 +8,7 @@ public class fullname {
     //funcion principal
 
     public static void main(String[] args) {
+        //objeto instancia teclado tipo Scanner
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite su nombre completo : ");
         //usamos en esta ocasion nextline para recibir

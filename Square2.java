@@ -11,7 +11,7 @@ llenamos por filas o por columnas
 
 */
 
-public class Square {
+public class Square2 {
     public static void main(String[] args) {
         //instancia entrada
         Scanner entrada= new Scanner(System.in);

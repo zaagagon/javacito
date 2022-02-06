@@ -8,6 +8,7 @@ import java.util.Scanner;
 * *
 
 llenamos por filas o por columnas
+cuadrado = lado x lado
 
 */
 

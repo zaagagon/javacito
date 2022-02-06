@@ -19,7 +19,7 @@ public class rectangle1 {
     public static void main(String[] args) {
         //instancia entrada
         Scanner entrada= new Scanner(System.in);
-        System.out.println("programa que dibuha cuadro de asteriscos");
+        System.out.println("Programa que dibuja un RECTANGULO");
         System.out.print("Digite cualquier caracter para dibujar el cuadro");
         System.out.println("Digite el numero de Astericos :");
         //solucion con dos for

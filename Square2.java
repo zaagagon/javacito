@@ -28,8 +28,9 @@ public class Square2 {
          //usamos dos banderas
          //ejemplo fila = 6
          //cuadrado es 6x6
-        for(int i=1;i<=fila;i++){
-            //
+        for(int i=1;i<=6;i++){
+            //podemos dibujar un rectangulo 
+            //si solicitamos dos lados
          
             for(int j=1;j<=fila;j++){
                 //podemos recibir el caracter que deseamos llenar el cuadrado

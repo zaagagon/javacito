@@ -26,16 +26,16 @@ public class rectangle1 {
         System.out.println("Digite el numero de Astericos :");
         //solucion con dos for
        //fila tamaño del lado del cuadrado
-        int fila = entrada.nextInt();
+        int altura = entrada.nextInt();
         System.out.println();
          //usamos dos banderas
          //ejemplo fila = 6
          //cuadrado es 6x6
-        for(int i=1;i<=6;i++){
+        for(int i=1;i<=altura;i++){
             //podemos dibujar un rectangulo 
             //si solicitamos dos lados
          
-            for(int j=1;j<=fila;j++){
+            for(int j=1;j<=6;j++){
                 //podemos recibir el caracter que deseamos llenar el cuadrado
 
                 System.out.print(" @  ");
@@ -43,6 +43,7 @@ public class rectangle1 {
             }
             System.out.println("\n");
         }
+        //area del rectangulo
 
     }
     

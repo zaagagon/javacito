@@ -46,7 +46,7 @@ public class rectangle1 {
         //area del rectangulo
         int area = 6*altura;
         System.out.println("base : "+ 6);
-        System.out
+        System.out.println("altura" + altura);
         System.out.println("el area del rectangulo es : "+area);
 
     }

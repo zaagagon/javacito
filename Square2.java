@@ -26,6 +26,8 @@ public class Square2 {
         for(int i=1;i<=fila;i++){
          
             for(int j=1;j<=fila;j++){
+                //podemos recibir el caracter que deseamos llenar el cuadrado
+                
                 System.out.print(" @  ");
                
             }

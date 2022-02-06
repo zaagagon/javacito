@@ -19,6 +19,7 @@ public class Square2 {
         System.out.print("Digite cualquier caracter para dibujar el cuadro");
         System.out.println("Digite el numero de Astericos :");
         //solucion con dos for
+        //usamos dos banderas
         int fila = entrada.nextInt();
         System.out.println();
         for(int i=1;i<=fila;i++){

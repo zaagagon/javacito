@@ -2,7 +2,9 @@
 
 import java.util.Scanner;
 
-//razonamiento de cuadrado de asteriscos
+//razonamiento de Rectangulo
+
+//El área del rectángulo se define como: Área = Largo · Ancho.
 /* 
 * *
 * *

@@ -19,7 +19,7 @@ public class Square2 {
         System.out.print("Digite cualquier caracter para dibujar el cuadro");
         System.out.println("Digite el numero de Astericos :");
         //solucion con dos for
-       
+       //fila tamaño del lado del cuadrado
         int fila = entrada.nextInt();
         System.out.println();
          //usamos dos banderas
@@ -27,7 +27,7 @@ public class Square2 {
          
             for(int j=1;j<=fila;j++){
                 //podemos recibir el caracter que deseamos llenar el cuadrado
-                
+
                 System.out.print(" @  ");
                
             }

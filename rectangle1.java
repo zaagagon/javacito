@@ -28,6 +28,9 @@ public class rectangle1 {
        //fila tamaño del lado del cuadrado
        //variable altura
         int altura = entrada.nextInt();
+        //Scanner dato= new Scanner(System.in);
+        System.out.println("digite el caracter para llenar el rectangulo ");
+        String caracter =entrada.nextLine();
         System.out.println();
          //usamos dos banderas
          //ejemplo fila = 6

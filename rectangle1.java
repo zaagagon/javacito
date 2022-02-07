@@ -30,6 +30,7 @@ public class rectangle1 {
         int altura = entrada.nextInt();
         Scanner dato= new Scanner(System.in);
         System.out.println("digite el caracter para llenar el rectangulo ");
+        //creamos la variable caracter
         String caracter =dato.nextLine();
         System.out.println();
          //usamos dos banderas
@@ -42,7 +43,7 @@ public class rectangle1 {
             for(int j=1;j<=6;j++){
                 //podemos recibir el caracter que deseamos llenar el cuadrado
 
-                System.out.print(" @  ");
+                System.out.print(" "+caracter+" ");
                
             }
             System.out.println("\n");

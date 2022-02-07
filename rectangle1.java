@@ -22,8 +22,8 @@ public class rectangle1 {
         //instancia entrada
         Scanner entrada= new Scanner(System.in);
         System.out.println("Programa que dibuja un RECTANGULO");
-        System.out.print("Digite cualquier caracter para dibujar el cuadro");
-        System.out.println("Digite la altura del Rectangulo:");
+        System.out.println(" ** Digite cualquier caracter para dibujar el cuadro **");
+        System.out.println("Digite la altura del Rectangulo: ");
         //solucion con dos for
        //fila tamaño del lado del cuadrado
         int altura = entrada.nextInt();

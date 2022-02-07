@@ -26,6 +26,7 @@ public class rectangle1 {
         System.out.println("Digite la altura del Rectangulo: ");
         //solucion con dos for
        //fila tamaño del lado del cuadrado
+       //variable altura
         int altura = entrada.nextInt();
         System.out.println();
          //usamos dos banderas

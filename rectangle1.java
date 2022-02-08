@@ -21,7 +21,7 @@ public class rectangle1 {
     public static void main(String[] args) {
         //definicion de variable
         //declaracion de variable bases
-        int base=6;
+        int base=6; //global
         //instancia entrada
         Scanner entrada= new Scanner(System.in);
         System.out.println("Programa que dibuja un RECTANGULO");

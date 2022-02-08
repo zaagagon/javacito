@@ -39,7 +39,7 @@ public class rectangle1 {
         for(int i=1;i<=altura;i++){
             //podemos dibujar un rectangulo 
             //si solicitamos dos lados
-         
+          Integer base =6;
             for(int j=1;j<=6;j++){
                 //podemos recibir el caracter que deseamos llenar el cuadrado
                 //variable que llena el rectangulo
@@ -52,7 +52,7 @@ public class rectangle1 {
         }
         //area del rectangulo
         //valor constante
-        
+
         int area = 6*altura;
 
         System.out.println("Base del rectangulo: "+ 6);

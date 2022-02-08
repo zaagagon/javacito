@@ -19,6 +19,8 @@ fila = lado
 //clase y nombre de archivo deben ser iguales
 public class rectangle1 {
     public static void main(String[] args) {
+        //definicion de variable
+        int base=6;
         //instancia entrada
         Scanner entrada= new Scanner(System.in);
         System.out.println("Programa que dibuja un RECTANGULO");
@@ -39,8 +41,8 @@ public class rectangle1 {
         for(int i=1;i<=altura;i++){
             //podemos dibujar un rectangulo 
             //si solicitamos dos lados
-          Integer base =6;
-            for(int j=1;j<=6;j++){
+        
+            for(int j=1;j<=base;j++){
                 //podemos recibir el caracter que deseamos llenar el cuadrado
                 //variable que llena el rectangulo
                 //variable

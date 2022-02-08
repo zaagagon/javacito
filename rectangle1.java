@@ -51,6 +51,8 @@ public class rectangle1 {
             System.out.println("\n");
         }
         //area del rectangulo
+        //valor constante
+        
         int area = 6*altura;
 
         System.out.println("Base del rectangulo: "+ 6);

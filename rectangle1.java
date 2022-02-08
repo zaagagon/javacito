@@ -20,6 +20,7 @@ fila = lado
 public class rectangle1 {
     public static void main(String[] args) {
         //definicion de variable
+        //declaracion de variable bases
         int base=6;
         //instancia entrada
         Scanner entrada= new Scanner(System.in);

@@ -54,7 +54,7 @@ public class rectangle1 {
         int area = 6*altura;
 
         System.out.println("Base del rectangulo: "+ 6);
-        System.out.println("Altura :" + altura);
+        System.out.println("Altura del Rectangulo:" + altura);
         //Color al texto en java
         System.out.println("El Area del Rectangulo es : "+ area);
 

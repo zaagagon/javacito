@@ -43,6 +43,7 @@ public class rectangle1 {
             for(int j=1;j<=6;j++){
                 //podemos recibir el caracter que deseamos llenar el cuadrado
                 //variable que llena el rectangulo
+                //variable
 
                 System.out.print(" "+caracter+" ");
                

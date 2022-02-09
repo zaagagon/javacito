@@ -13,7 +13,7 @@ public class holita { //archivo y clase deben tener el mismo nombre
         String name =nombre.nextLine();
         for(int i=1;i<=3;i++){
           
-          System.out.println(name + " Bievenido ");
+          System.out.println("hello " + name + " Bievenido ");
         }
         
         

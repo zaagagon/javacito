@@ -24,7 +24,7 @@ public class aster2{
          //Es necesario que j su valor sea cero para poder imprimir la ultima fila
             for(int j=0;j<=fila-i;j++){
                 
-                System.out.print("* ");
+                System.out.print(" * ");
             }
             //que hace
             System.out.println();

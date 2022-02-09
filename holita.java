@@ -9,7 +9,7 @@ public class holita { //archivo y clase deben tener el mismo nombre
         //imprimir en pantalla hola
         Scanner nombre = new Scanner(System.in);
             
-        System.out.println("Hola, Digite su nombre por favor : " + "");
+        System.out.println("Hola, Digite su nombre por favor : " + "\n");
         String name =nombre.nextLine();
         for(int i=1;i<=3;i++){
           

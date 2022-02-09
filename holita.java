@@ -6,9 +6,11 @@ public class holita { //archivo y clase deben tener el mismo nombre
     //definir o crear el metodo principal
     public static void main(String[] args) {
 
-        //instruccion 
-        //imprimir en pantalla hola
+       //
         System.out.print("\033[H\033[2J");
+
+         //instruccion 
+        //imprimir en pantalla hola
 
         Scanner nombre = new Scanner(System.in);
             

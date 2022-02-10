@@ -26,7 +26,7 @@ public class aster2{
                 
                 System.out.print(" * ");
             }
-            //que hace
+            //que hace dd
             System.out.println();
         }
     }

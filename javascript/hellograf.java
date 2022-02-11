@@ -1,4 +1,5 @@
 //revisar
+package com.popularfan.ejemplo1;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JLabel;

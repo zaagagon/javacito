@@ -3,7 +3,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.border.Border;
  
-class hellograf2 {    //b
+class hellograf2 {    //b  
  
     public static void main(String[] args) {                     //c
         JFrame frame = new JFrame("Hola Mundo en Swing");        //d

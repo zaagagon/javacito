@@ -1,3 +1,5 @@
+//revisar
+
 import javax.swing.BorderFactory; //a
 import javax.swing.JFrame;
 import javax.swing.JLabel;

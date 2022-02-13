@@ -12,9 +12,12 @@ public class clase1 {
        //objeto instancia teclado tipo Scanner
        Scanner teclado = new Scanner(System.in);
        System.out.println("Digite dos numeros : ");
+       //
        int X=teclado.nextInt();
+       int Y=teclado.nextInt();
 
-        System.out.println("Resultado de la suma : " +(X+b));
+
+        System.out.println("Resultado de la suma : " +(X+Y));
          
         
 

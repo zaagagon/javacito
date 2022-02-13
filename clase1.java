@@ -16,8 +16,10 @@ public class clase1 {
        int X=teclado.nextInt();
        int Y=teclado.nextInt();
 
+       int Z = X+Y;
 
-        System.out.println("Resultado de la suma : " +(X+Y));
+
+        System.out.println("Resultado de la suma : " + Z);
          
         
 

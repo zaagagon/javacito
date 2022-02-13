@@ -19,6 +19,7 @@ public class clase1 {
        int X=teclado.nextInt();
        int Y=teclado.nextInt();
 
+       //variable resultado
        int Z = X+Y;
 
 

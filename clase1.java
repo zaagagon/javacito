@@ -8,11 +8,11 @@ public class clase1 {
         int b =6;
 
        //objeto instancia teclado tipo Scanner
-       Scanner a = new Scanner(System.in);
+       Scanner teclado = new Scanner(System.in);
        System.out.println("Digite dos numeros : ");
-       String completo=teclado.nextLine();
+       int X=teclado.nextInt();
 
-        System.out.println("Resultado de la suma : " +a+b);
+        System.out.println("Resultado de la suma : " +(X+b));
          
         
 

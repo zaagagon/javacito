@@ -7,7 +7,7 @@ public class clase1 {
         int a = 4;
         int b =6;
 
-        Scanner
+        Scanner.
         System.out.println("Resultado de la suma : " +a+b);
          
         

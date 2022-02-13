@@ -11,15 +11,17 @@ public class clase1 {
         System.out.println(" **Programa que suma dos numeros *");
        //objeto instancia teclado tipo Scanner
        Scanner teclado = new Scanner(System.in);
+       System.out.println("cual es su nombre :");
+       String nombre = teclado.nextLine();
        System.out.println("Digite dos numeros : ");
-       //
+       //llamamos la instancia teclado
        int X=teclado.nextInt();
        int Y=teclado.nextInt();
 
        int Z = X+Y;
 
 
-        System.out.println("Resultado de la suma : " + Z);
+        System.out.println(nombre + " el Resultado de la suma : " + Z);
          
         
 

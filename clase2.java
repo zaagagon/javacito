@@ -23,7 +23,7 @@ public class clase2 {
        //variable resultado
        int Z = X+Y;
 
-
+ //
         System.out.println(nombre + " el Resultado de la suma : " + Z);
          
         

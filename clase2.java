@@ -25,8 +25,7 @@ public class clase2 {
 
  //
         System.out.println(nombre + " El Resultado de la suma : " + Z);
-         
-        
+         //
 
     }
     

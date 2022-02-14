@@ -24,7 +24,7 @@ public class clase2 {
        int Z = X+Y;
 
  //
-        System.out.println(nombre + " el Resultado de la suma : " + Z);
+        System.out.println(nombre + " El Resultado de la suma : " + Z);
          
         
 

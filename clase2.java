@@ -16,6 +16,7 @@ public class clase2 {
        String nombre = teclado.nextLine();
        System.out.println("Digite dos numeros : ");
        //llamamos la instancia teclado
+       //
        int X=teclado.nextInt();
        int Y=teclado.nextInt();
 

@@ -10,7 +10,7 @@ public class clase3 {
         int b =6;
    
 
-        System.out.println(" **Programa que suma dos numeros *");
+        System.out.println(" ** Programa que suma dos numeros * *");
        //objeto instancia teclado tipo Scanner
        Scanner teclado = new Scanner(System.in);
        System.out.println("cual es su nombre :");

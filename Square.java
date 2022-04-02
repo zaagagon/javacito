@@ -23,7 +23,7 @@ public class Square {
         for(int i=1;i<=fila;i++){
          
             for(int j=1;j<=fila;j++){
-                System.out.print(" @  ");
+                System.out.print(" *  ");
                
             }
             System.out.println("\n");

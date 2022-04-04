@@ -2,6 +2,10 @@
 public class retorno {
 
     public static void main(String[] args) {
+        //instancias objeto de la clase rectangulo
+
+        rectangulo r = new rectangulo(2.0,5,0);
+        System.out.println("area"+ r.calcular());
         
     }
 

@@ -16,6 +16,10 @@ public class retorno {
             altura=h;
         }
         //metodo calcular
+        public double calcular()
+        {
+            return base*altura;
+        }
     }
     
 }

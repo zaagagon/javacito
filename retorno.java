@@ -7,7 +7,13 @@ public class retorno {
 
     //creamos la clase rectangulo
     class rectangulo {
-        
+        private double base, altura;
+        public medidas(double b, double h)
+        {
+            //creamos las variables
+            base=b;
+            altura=h;
+        }
     }
     
 }

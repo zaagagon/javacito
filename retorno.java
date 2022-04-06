@@ -1,6 +1,6 @@
 //cmd + b para ventana completa codigo
 
-
+//clase rectangulo
     class Rectangulo {
         private double base, altura;
         //metodo medidas

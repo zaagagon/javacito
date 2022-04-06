@@ -6,6 +6,11 @@
 //constructor
 //metodo
 //funcion
+/*
+El metodo qeu realiza la inicializacion del objeto
+es el constructor
+Este tiene el mismo nombre de la clase y no tiene tipo de retorno
+*/
 
 public class retorno2 {
 

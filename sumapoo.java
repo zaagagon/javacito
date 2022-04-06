@@ -6,3 +6,14 @@ public class sumapoo {
     }
     
 }
+
+//CREAMOS LA CLASE SUMA
+
+class suma {
+
+    //creamos el constructor
+
+
+    //creamos el metodo sumar
+    
+}

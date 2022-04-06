@@ -1,5 +1,12 @@
 //cmd + b para ventana completa codigo
 
+//conceptos
+//clase
+//objeto o instancia
+//constructor
+//metodo
+//funcion
+
 public class retorno2 {
 
     //llamado a la funcion principal
@@ -21,7 +28,7 @@ class Rectangulo {
     /*
     la principal característica de este 
     tipo de métodos es que llevan el mismo nombre de la clase, */
-    //Constructor Rectangulo
+    //Constructor rectangulo
     public Rectangulo(double b, double h)
     {
         //creamos las variables

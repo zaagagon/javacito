@@ -1,6 +1,8 @@
 //cmd + b para ventana completa codigo
 
 public class retorno2 {
+
+    //llamado a la funcion principal
     public static void main(String arg[]) {
         //instancias objeto de la clase rectangulo
     
@@ -15,7 +17,11 @@ public class retorno2 {
 //clase rectangulo
 class Rectangulo {
     private double base, altura;
-    //metodo medidas
+    //
+    /*
+    la principal característica de este 
+    tipo de métodos es que llevan el mismo nombre de la clase, */
+    //Constructor Rectangulo
     public Rectangulo(double b, double h)
     {
         //creamos las variables

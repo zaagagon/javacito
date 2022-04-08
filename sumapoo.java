@@ -13,6 +13,10 @@ class suma {
 
     //creamos el constructor
 
+    public suma(int x, int y){
+        
+    }
+
 
     //creamos el metodo sumar
     

@@ -1,5 +1,8 @@
 //importamos el paquete util
+
 import java.util.Scanner;
+
+//import Printer;
 
 public class FuncionSuma {
     public static void main(String[] args) {
@@ -7,7 +10,8 @@ public class FuncionSuma {
         //ingreso de datos
         Scanner entrada= new Scanner(System.in);
 
-        System.out.println("Digite primer numero");
+       System.out.println("Digite primer numero");
+       //FuncionSuma.Printer("Digite primer numero");
         //tomamos los datos ingresados por teclado
         int a= entrada.nextInt();
         System.out.println("Digite segundo numero");

@@ -1,4 +1,5 @@
 //programa que imprime tabla
+
 public class saludo
 {
     //metodo principal

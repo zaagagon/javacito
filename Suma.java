@@ -1,6 +1,6 @@
 public class Suma {
     //Atributos de la clase
-    int num1, num2, total;
+    int num1, num2, resultado;
     
     //Constructor de la clase
     Suma(int x, int y)
@@ -12,7 +12,7 @@ public class Suma {
     //Método de la clase
     public void sumar()
     {
-    total=num1+num2;
-    System.out.println("Suma = "+total);
+    resultado=num1+num2;
+    System.out.println("El resultado de la suma es : "+total);
     }
     }

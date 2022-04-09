@@ -6,7 +6,8 @@ public class PruebaSuma {
         Suma s=new Suma(4,2);
     //dos metodos
         s.sumar(); 
-    b.printer("hola");
+        String name = "alejo";
+    b.printer("hola : ",name);
     
     }
     }

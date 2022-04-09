@@ -18,12 +18,13 @@ public class Printer {
 //En otros ejemplos revisaremos
 //revisar programas de memoria amarilla o ahorcado en visual studio code
 //pendiente
-    public void printer(String string) {
+    //agregamos parametro para recibir variables
+    public void printer(String string, String var) {
  //Este metodo solo imprime enteros
  //Es necesario crear una funcion que reciba enteros y cadenas
  //pendiente
  //crear una funcion imprimir numero y letras
- System.out.println(string);
+ System.out.println(string + var);
         
     }
     

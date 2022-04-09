@@ -13,6 +13,6 @@ public class Suma {
     public void sumar()
     {
     resultado=num1+num2;
-    System.out.println("El resultado de la suma es : "+total);
+    System.out.println("El resultado de la suma es : "+resultado);
     }
     }

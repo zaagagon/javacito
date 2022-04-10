@@ -13,6 +13,9 @@ public class PruebaSuma {
     r.sumar();
     System.out.println(" ***Ejemplo realizado con la clase operaciones ***");
    s.sumar(); 
+
+   //realizar la suma recibiendo los datos por teclado 
+   //utilizando el metodo sumar y la instancia de la clase printer
    Scanner teclado = new Scanner(System.in);
         System.out.println("digite su nombre :");
         String nombre = teclado.nextLine();

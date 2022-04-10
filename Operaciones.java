@@ -15,7 +15,7 @@ public class Operaciones {
    // metodo de la clase 
    public void sumar(){
      result=n1+n2;
-     //es e
+     //Es necesario parsear de int a String
      String result2= Integer.toString(result);
        //creamos objeto de la clase Printer
        Printer mostrar = new Printer(null);

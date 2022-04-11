@@ -4,3 +4,7 @@ metodo printer dos parametros o argumentos
 
 clase Operaciones :
 metodo suma
+
+clase limpiar
+
+metodo clearconsole

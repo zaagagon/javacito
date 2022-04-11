@@ -1,3 +1,5 @@
+import java.lang.ref.Cleaner;
+
 public class PruebaOperaciones {
 
    
@@ -10,6 +12,7 @@ public static void main(String a[] ) {
     //creamos otro metodo para que reciba un solo parametro
     //sobrecarga de parametros
     //revisar ...
+    limpiar.ClearConsole();
 k.printer("Probando operaciones con metodo de la clase Printer un parametro");
     System.out.println("Hola zag");
     

@@ -27,5 +27,8 @@ public class Printer {
  System.out.println(string + var);
         
     }
+    public void printer(String string) {
+        System.out.println(string);
+    }
     
 }

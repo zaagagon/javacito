@@ -1,0 +1,6 @@
+Clase Printer
+
+metodo printer dos parametros o argumentos
+
+clase Operaciones :
+metodo suma

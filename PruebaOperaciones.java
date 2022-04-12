@@ -16,8 +16,12 @@ public static void main(String a[] ) {
     //revisar ...
     //invocamos el metodo ClearConsole de la clase limpiar
     limpiar.ClearConsole();
+    //declaramos la variable clase 
+    String teclado;
     //instancia de la clase Scanner
     Scanner teclado = new Scanner(System.in);
+    k.printer("Digite su nombre : ");
+    teclado = teclado.nextLine(System.in);
     k.printer("Probando operaciones con metodo de la clase Printer un parametro");
     System.out.println("Hola zag");
     

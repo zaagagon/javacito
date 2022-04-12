@@ -46,12 +46,15 @@ public static void main(String a[] ) {
            
            switch(opcion){
                case 1:
+                    //invocar metodo printer
                    System.out.println("Has seleccionado la opcion 1");
                    break;
                case 2:
+                    //invocar metodo limpiar pantalla
                    System.out.println("Has seleccionado la opcion 2");
                    break;
                 case 3:
+                //invocar metodo suma
                    System.out.println("Has seleccionado la opcion 3");
                    break;
                 case 4:

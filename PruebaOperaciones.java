@@ -21,7 +21,9 @@ public static void main(String a[] ) {
     //instancia de la clase Scanner
     Scanner teclado = new Scanner(System.in);
     k.printer("Digite su nombre : ");
-    teclado = teclado.nextLine(System.in);
+    String nombre = teclado.nextLine();
+    //
+    k.printer("Bienvenido", nombre);
     k.printer("Probando operaciones con metodo de la clase Printer un parametro");
     System.out.println("Hola zag");
     

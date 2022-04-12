@@ -20,6 +20,7 @@ public static void main(String a[] ) {
    // String teclado;
     //instancia de la clase Scanner
     Scanner teclado = new Scanner(System.in);
+    //sobrecarga de metodos en la clase printer
     k.printer("Digite su nombre : ");
     String nombre = teclado.nextLine();
 

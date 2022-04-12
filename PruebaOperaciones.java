@@ -5,6 +5,7 @@ public class PruebaOperaciones {
    
    
 public static void main(String a[] ) {
+    //objeto de la clase Printer
     Printer k = new Printer(null);
     String name ="yolis";
     //invocamos metodo printer
@@ -13,7 +14,7 @@ public static void main(String a[] ) {
     //sobrecarga de parametros
     //revisar ...
     limpiar.ClearConsole();
-k.printer("Probando operaciones con metodo de la clase Printer un parametro");
+    k.printer("Probando operaciones con metodo de la clase Printer un parametro");
     System.out.println("Hola zag");
     
     

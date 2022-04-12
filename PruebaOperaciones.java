@@ -17,15 +17,17 @@ public static void main(String a[] ) {
     //invocamos el metodo ClearConsole de la clase limpiar
     limpiar.ClearConsole();
     //declaramos la variable clase 
-    String teclado;
+   // String teclado;
     //instancia de la clase Scanner
     Scanner teclado = new Scanner(System.in);
     k.printer("Digite su nombre : ");
     String nombre = teclado.nextLine();
+
+    limpiar.ClearConsole();
     //
-    k.printer("Bienvenido", nombre);
+    k.printer("Bienvenido : ", nombre);
     k.printer("Probando operaciones con metodo de la clase Printer un parametro");
-    System.out.println("Hola zag");
+    System.out.println("Aprend");
     
     
 }

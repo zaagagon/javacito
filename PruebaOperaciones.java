@@ -28,7 +28,7 @@ public static void main(String a[] ) {
     //
     k.printer("Bienvenido : ", nombre);
     k.printer("Probando operaciones con metodo de la clase Printer un parametro");
-    System.out.println("Aprend");
+    System.out.println("Aprendiendo clases invocacion de metodos");
     
     
 }

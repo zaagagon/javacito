@@ -36,7 +36,7 @@ public static void main(String a[] ) {
        
        while(!salir){
            
-           System.out.println("1. Opcion 1");
+           System.out.println("1. Imprimr con el metodo printer");
            System.out.println("2. Opcion 2");
            System.out.println("3. Opcion 3");
            System.out.println("4. Salir");
@@ -47,8 +47,9 @@ public static void main(String a[] ) {
            switch(opcion){
                case 1:
                     //invocar metodo printer
-                   System.out.println("Has seleccionado la opcion 1");
-                   break;
+                  // System.out.println("Has seleccionado la opcion 1");
+                  k.printer("Metodo printer de la clase Printer"); 
+                  break;
                case 2:
                     //invocar metodo limpiar pantalla
                    System.out.println("Has seleccionado la opcion 2");

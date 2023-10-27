@@ -12,6 +12,7 @@
             }
             //imprime los numeros del 1 al 10
             System.out.println("Programa que imprime serie 1 al 10");
+            System.out.println("hasta la proxima GR1");
 
            
         }

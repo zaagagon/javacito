@@ -9,7 +9,7 @@ class pilas {    //b
         JFrame frame = new JFrame("Hola Mundo en Swing");        //d
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);    //e
  
-        JLabel label = new JLabel("Hola Mundo", JLabel.CENTER);                //f
+        JLabel label = new JLabel("Hola Mundo Yolis GR1", JLabel.CENTER);                //f
         Border empty = BorderFactory.createEmptyBorder(100, 100, 100, 100);    //g
         label.setBorder(empty);                                                //h
  

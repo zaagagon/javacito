@@ -15,8 +15,9 @@ public class Arearectangulo {
         //llamando el metodo estatico sin crear objeto
         double resultado= calculo.area(10,7);
         System.out.println((resultado));
-//cerramos el objeto
-       datos.close();
+        
+        //cerramos el objeto
+        datos.close();
         
     }
     //metodo no estatico requiere crear objeto

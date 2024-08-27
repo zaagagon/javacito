@@ -15,6 +15,7 @@ public class Index {
         //mostrar atributo publico 
         System.out.println(persona.Apellido);
         System.out.println(persona.getNombre());
+        
     }
     
 }

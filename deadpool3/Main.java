@@ -11,6 +11,12 @@ public class Main {
         //llamamos el metodo
 
         personaje1.mostrarInfo();
+
+        //creamos objeto de la clase heroe
+
+        Heroe personaje2 = new Heroe("Steve Rogers");
+
+        personaje2.mostrarInfo();
         
     }
 

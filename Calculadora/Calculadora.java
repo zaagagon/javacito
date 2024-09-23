@@ -1,4 +1,4 @@
-//clase 
+//clase de prueba
 package Calculadora;
 
 public class Calculadora {

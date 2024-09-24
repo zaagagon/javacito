@@ -1,4 +1,4 @@
-package Calculadora;
+package Operaciones;
 
 /**
  * Suma

@@ -1,5 +1,5 @@
 //clase de prueba
-package Calculadora;
+package Operaciones;
 
 public class Calculadora {
 

@@ -1,0 +1,12 @@
+{
+    "java.format.settings.url": ".vscode/java-formatter.xml",
+    "java.project.sourcePaths": [
+        ".",
+        "clases_Java",
+        "graph",
+        "programita"
+    ],
+    "java.project.referencedLibraries": [
+        "2026/TecnoIAProductos/lib/mysql-connector-j-9.7.0.jar"
+    ]
+}

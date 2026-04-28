@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>TecnoIA - Productos</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<div class="layout">
+    <aside class="sidebar">
+        <h1>TecnoIA</h1>
+        <a class="active" href="/productos">Productos</a>
+        <a href="#">Categorías</a>
+        <a href="#">Ventas</a>
+        <a href="#">Clientes</a>
+        <a href="#">Reportes</a>
+    </aside>
+
+    <main class="content">
+        <header class="topbar">
+            <div>
+                <h2>Gestión de Productos</h2>
+                <p>Módulo web con Spring Boot, JDBC y base de datos H2.</p>
+            </div>
+            <a class="btn primary" href="/productos/nuevo">+ Nuevo producto</a>
+        </header>
+
+        <section class="cards">
+            <div class="card">
+                <span>Total productos</span>
+                <strong th:text="${#lists.size(productos)}">0</strong>
+            </div>
+            <div class="card">
+                <span>Módulo</span>
+                <strong>CRUD</strong>
+            </div>
+            <div class="card">
+                <span>Base de datos</span>
+                <strong>H2/JDBC</strong>
+            </div>
+        </section>
+
+        <section class="panel">
+            <h3>Listado de productos</h3>
+            <table>
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th>Acciones</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="producto : ${productos}">
+                    <td th:text="${producto.idProducto}"></td>
+                    <td th:text="${producto.nombre}"></td>
+                    <td th:text="${producto.categoria}"></td>
+                    <td th:text="${'$ ' + #numbers.formatDecimal(producto.precio, 0, 'COMMA', 0, 'POINT')}"></td>
+                    <td th:text="${producto.stock}"></td>
+                    <td class="actions">
+                        <a class="btn small" th:href="@{'/productos/editar/' + ${producto.idProducto}}">Editar</a>
+                        <a class="btn small danger" th:href="@{'/productos/eliminar/' + ${producto.idProducto}}"
+                           onclick="return confirm('¿Seguro que desea eliminar este producto?')">Eliminar</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</div>
+</body>
+</html>

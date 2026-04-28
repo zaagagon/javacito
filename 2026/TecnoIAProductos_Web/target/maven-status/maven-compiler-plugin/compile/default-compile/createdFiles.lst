@@ -1,0 +1,4 @@
+com/tecnoia/productos/controller/ProductoController.class
+com/tecnoia/productos/repository/ProductoRepository.class
+com/tecnoia/productos/model/Producto.class
+com/tecnoia/productos/TecnoiaProductosWebApplication.class
